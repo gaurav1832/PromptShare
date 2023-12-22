@@ -26,8 +26,8 @@ const Navbar = () => {
         <Image
           src="/assets/images/logo_green.png"
           alt="logo"
-          width={50}
-          height={50}
+          width={40}
+          height={40}
           className="object-contain"
         />
       </Link>
