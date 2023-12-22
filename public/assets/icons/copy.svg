@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <svg fill="none" shapeRendering="geometricPrecision" stroke="#FF5722" strokeLinecap="round" strokeLinejoin="round"
    strokeWidth="1.5" viewBox="0 0 24 24" width="14" height="14" version="1.1" id="svg4" sodipodi:docname="copy.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
@@ -11,4 +11,9 @@
    <path
       d="M8 17.929H6c-1.105 0-2-.912-2-2.036V5.036C4 3.91 4.895 3 6 3h8c1.105 0 2 .911 2 2.036v1.866m-6 .17h8c1.105 0 2 .91 2 2.035v10.857C20 21.09 19.105 22 18 22h-8c-1.105 0-2-.911-2-2.036V9.107c0-1.124.895-2.036 2-2.036z"
       id="path2" />
+</svg> -->
+
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+<title>content-paste</title>
+<path d="M23.783 25.851v-17.501h-2.149v3.275h-10.951v-3.275h-2.149v17.501h15.249zM16.158 6.201c-0.614 0-1.075 0.461-1.075 1.075s0.461 1.075 1.075 1.075c0.614 0 1.075-0.461 1.075-1.075s-0.461-1.075-1.075-1.075v0zM23.783 6.201c1.177 0 2.201 0.973 2.201 2.149v17.501c0 1.177-1.023 2.149-2.201 2.149h-15.249c-1.177 0-2.201-0.973-2.201-2.149v-17.501c0-1.177 1.023-2.149 2.201-2.149h4.555c0.461-1.28 1.637-2.201 3.070-2.201s2.61 0.921 3.070 2.201h4.554z"></path>
 </svg>

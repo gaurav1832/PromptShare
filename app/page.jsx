@@ -1,3 +1,4 @@
+"use client";
 import Feed from "@/components/Feed";
 
 const Home = () => {
@@ -6,15 +7,14 @@ const Home = () => {
       <h1 className="head_text text-center">
         Discover & Share
         <br className="max-md:hidden" />
-        <span className="blue_gradient text-center">AI Powered Prompts</span>
+        <span className="gptgreen text-center">AI Powered Prompts</span>
       </h1>
-      <p className="desc text-center">
+      {/* <p className="desc text-center">
         Your go-to AI-powered platform for limitless creative prompts. Explore,
         share, and collaborate on inspiring ideas, fueling your storytelling
         journey. Join a vibrant community of creators and unlock endless
         creativity!
-      </p>
-        
+      </p> */}
       <Feed />
     </section>
   );

@@ -3,6 +3,9 @@
 import { useState } from "react";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/navigation";
+import { useLayoutEffect } from "react";
+import { redirect } from "next/navigation";
+
 import Form from "@/components/Form";
 
 const CreatePrompt = () => {
@@ -11,6 +14,13 @@ const CreatePrompt = () => {
 
   const [submitting, setIsSubmitting] = useState(false);
   const [post, setPost] = useState({ prompt: "", tag: "" });
+
+  // useLayoutEffect(() => {
+  //   const isAuth = session?.user.id;
+  //   if (!isAuth) {
+  //     redirect("/");
+  //   }
+  // }, []);
 
   const createPrompt = async (e) => {
     e.preventDefault();

@@ -6,7 +6,6 @@ import { useState, useEffect } from "react";
 import { signIn, signOut, useSession, getProviders } from "next-auth/react";
 
 const Navbar = () => {
-  const userLoggedIn = true;
   const [providers, setproviders] = useState(null);
   const [dropdown, setdropdown] = useState(false);
   const { data: session } = useSession();
@@ -22,10 +21,10 @@ const Navbar = () => {
     <nav className="flex-between w-full mb-16 pt-3">
       <Link
         href="/"
-        className="flex gap-2 flex-center border-r-4 border-b-2 rounded-sm"
+        className="flex gap-2 flex-center border-l-2 border-gray-200 border-t-2 rounded-sm"
       >
         <Image
-          src="/assets/images/logo.png"
+          src="/assets/images/logo_green.png"
           alt="logo"
           width={50}
           height={50}
@@ -37,7 +36,7 @@ const Navbar = () => {
       <div className="sm:flex hidden">
         {session?.user ? (
           <div className="flex gap-3 md:gap-5">
-            <Link href="/create" className="black_btn">
+            <Link href="/create" className="white_btn">
               Create Post
             </Link>
 
@@ -97,7 +96,7 @@ const Navbar = () => {
                   My Profile
                 </Link>
                 <Link
-                  href="/create-prompt"
+                  href="/create"
                   className="dropdown_link"
                   onClick={() => setdropdown(false)}
                 >
