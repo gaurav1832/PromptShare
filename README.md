@@ -18,17 +18,24 @@ Welcome to our AI Prompt Sharing Platform! This platform enables users to share 
 ### Prerequisites
 
 - Node.js
-- MongoDB (or any supported database)
+- MongoDB
 - Next.js
 - NextAuth.js
-- [List any other dependencies or services needed]
+- React
+- Tailwind CSS
 
 ### Installation
 
 1. Clone the repository.
-2. Install dependencies using `npm install`.
-3. Set up the required environment variables (e.g., database connection, API keys).
-4. Start the development server using `npm run dev`.
+2. Install dependencies using
+```
+   npm install
+```
+4. Set up the required environment variables (e.g., database connection, Google Client IDs, etc.).
+5. Start the development server using
+```
+    npm run dev
+```
 
 ### Usage
 
@@ -38,11 +45,11 @@ Welcome to our AI Prompt Sharing Platform! This platform enables users to share 
 
 ## Contributing
 
-We welcome contributions from the community! If you'd like to contribute to this project, please follow our [contribution guidelines](CONTRIBUTING.md).
+We welcome contributions from the community! If you'd like to contribute to this project share your prompts.
 
 ## Acknowledgements
 - We extend our gratitude to the open-source community for their valuable contributions.
 
 ## Contact
 
-For any inquiries or support, please contact gauravgarwa07@gmail.com. 
+For any inquiries, support, or issues, please contact gauravgarwa07@gmail.com. 
