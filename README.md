@@ -8,9 +8,8 @@ Welcome to our AI Prompt Sharing Platform! This platform enables users to share 
 
 - **User Authentication:** Utilizes NextAuth for secure user authentication and authorization.
 - **CRUD Operations:** Allows users to Create, Read, Update, and Delete (CRUD) posts containing AI prompts.
-- **AI Model Integration:** Users can select from various AI models to generate content based on shared prompts.
-- **Community Interaction:** Enables engagement through comments, likes, sharing prompts, and following other users.
-- **Prompt Categorization:** Implements tags or categories for easy prompt discovery and sorting.
+ - **Community Interaction:** Enables engagement through sharing prompts and accessing other users' prompts in their profiles.
+- **Prompt Categorization:** Implements tags or categories for easy prompt discovery and searching.
 - **Feedback and Rating System:** Allows users to rate generated content and provide feedback for continuous improvement.
 
 ## Getting Started
